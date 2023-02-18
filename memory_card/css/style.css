@@ -1,0 +1,186 @@
+* { margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif;}
+
+
+body
+{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#gratulationContainer
+{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.9);
+    margin: 5%;
+    width: 90%;
+    height: 90%;
+    z-index: 3;
+}
+
+#gratulationContainer div
+{
+    text-align: center;
+    margin: 0 auto;
+}
+
+#gratulationContainer h2
+{
+    margin: 20px 0;
+}
+
+#restartBtn
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 12px 25px;
+    border: none;
+    border-bottom-right-radius: 15px;
+    background-color: #0099ff;
+    color: #fff;
+    cursor: pointer;
+    z-index: 4;
+}
+
+#score
+{
+    position: absolute;
+    top: 0;
+    width: 15px;
+    font-size: 24px;
+    right: 0;
+    padding: 10px;
+    color: #fff;
+    border: none;
+    border-bottom-left-radius: 20px;
+    background-color: rgb(0, 190, 0);
+}
+
+#score::-webkit-outer-spin-button,
+#score::-webkit-inner-spin-button
+{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#gridsContainer
+{
+    display: grid;
+    height: 100%;
+}
+
+#gridsContainer.small
+{
+    grid-template-columns: auto auto auto auto;
+}
+
+#gridsContainer.medium
+{
+    grid-template-columns: auto auto auto auto auto auto;
+}
+
+#gridsContainer.high
+{
+    grid-template-columns: auto auto auto auto;
+}
+
+.grid
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid .card
+{
+    position: absolute;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#gridsContainer.small .grid .card
+{
+    width: 160px;
+}
+
+#gridsContainer.small .grid .card:hover
+{
+    width: 180px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+#gridsContainer.medium .grid .card
+{
+    width: 140px;
+}
+
+#gridsContainer.medium .grid .card:hover
+{
+    width: 160px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+
+#gridsContainer.high .grid .card
+{
+    width: 120px;
+}
+
+#gridsContainer.high .grid .card:hover
+{
+    width: 140px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+
+#gridsContainer .small .grid
+{
+    grid-column-end: 3;
+}
+
+#cardsContainer
+{
+    width: 90%;
+    height: 90%;
+    background-color: #009600;
+    border-radius: 30px;
+}
+
+#introTitle
+{
+    color: #fff;
+    font-size: 2rem;
+    width: max-content;
+    margin: 50px auto 100px auto;
+}
+
+#buttonsContainer
+{
+    width: 100%;
+    height: 500px;
+}
+
+.button
+{
+    display: block;
+    padding: 15px 40px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+    margin: 20px auto;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.button:hover, .button:focus
+{
+    background-color: #fff;
+    color: #009600;
+}
