@@ -16,7 +16,7 @@
 - You can restart the game everytime, if you click on the button on the top of the left corner.
 - If you found all of the pairs of cards and you'd like to try again, you need to click on the button on the top of the left corner.
 
-The design is minimalist, because 
+The design is minimalist, because the javascript was the main thing in this little project.
 
 **The coode and images are created by me.**
 
