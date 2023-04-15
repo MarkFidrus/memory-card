@@ -10,7 +10,7 @@
 
 ##Document
 - This is a simple card game where you have to find the pairs of cards.
-- Currently you can choose three types of amount of cards. (small = 8, medium = 12 and large = 16)
+- Currently you can choose three types of amounts of cards. (small = 8, medium = 12 and large = 16)
 - After you selected a type( or size), if you found a pair you'll get a point. (on top of the right corner)
 - A pair of cards equal 1 point.
 - You can restart the game everytime, if you click on the button on the top of the left corner.
