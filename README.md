@@ -18,6 +18,6 @@
 
 The design is minimalist, because the javascript was the main thing in this little project.
 
-*** The coode and images are created by me. ***
+***The coode and images are created by me.***
 
-** Used languages: ** _ HTML, CSS, Javascript _
+**Used languages:** _HTML, CSS, Javascript_
